@@ -3,69 +3,84 @@ E-Commerce Product Page
 This project is a fully functional e-commerce product page built using React, TypeScript, and Vite. It leverages modern web development tools and practices to provide a scalable and responsive solution for online stores.
 
 🚀 Features
-🌟 Core Functionality
-Product Details: Includes a detailed product display with images, descriptions, and options (e.g., size, color).
-Add-to-Cart: Interactive add-to-cart functionality with quantity selection.
-Responsive Design: Ensures a seamless experience on desktop, tablet, and mobile devices.
-Interactive Elements: Smooth hover effects for buttons, product images, and links.
+
+Core Functionality
+
+Product details include a detailed display with images, descriptions, and options such as size and color.
+
+Add-to-cart functionality includes quantity selection for a seamless user experience.
+
+Responsive design ensures the page works beautifully on desktop, tablet, and mobile devices.
+
+Interactive elements such as hover effects enhance the usability of buttons, product images, and links.
+
+
 🛠 Tech Stack
-React: For building dynamic user interfaces.
-TypeScript: Ensures type safety for maintainable and scalable codebases.
-Vite: A fast development environment with hot module replacement (HMR).
-Tailwind CSS: Utility-first styling for rapid and consistent design.
+
+React is used for building dynamic and interactive user interfaces.
+
+TypeScript ensures type safety for a maintainable and scalable codebase.
+
+Vite provides a fast development environment with hot module replacement for a smooth workflow.
+
+Tailwind CSS enables rapid, consistent, and utility-first styling.
+
+
 📂 Project Structure
-The project is structured to ensure scalability and maintainability:
 
-graphql
-Copy
+The project is organized for scalability and maintainability:
+
 src/
-├── assets/       # Static files (images, icons, etc.)
-├── components/   # Reusable UI components (e.g., Navbar, ProductCard)
-├── pages/        # Page-level components (e.g., ProductPage, HomePage)
-├── App.tsx       # Root application component
-├── main.tsx      # Application entry point
-├── index.css     # Global Tailwind CSS styles
+assets/ contains static files like images and icons
+components/ includes reusable UI components such as the navbar and product card
+pages/ holds page-level components like the product page and homepage
+App.tsx is the root application component
+main.tsx serves as the application entry point
+index.css contains global Tailwind CSS styles
+
+
 🛠 How to Run the Project
-Prerequisites:
-Node.js (>=14.x) installed
-npm or yarn as your package manager
-Steps to Run:
-Clone the Repository:
 
-bash
-Copy
-git clone https://github.com/your-username/product-details-page.git
-cd product-details-page
-Install Dependencies:
+Prerequisites
 
-bash
-Copy
-npm install
-Start the Development Server:
+Node.js version 14 or above must be installed
 
-bash
-Copy
-npm run dev
-Build for Production:
+npm or yarn should be available as your package manager
 
-bash
-Copy
-npm run build
-Preview the Production Build:
 
-bash
-Copy
-npm run preview
+Steps to Run
+
+Clone the repository and navigate to the project directory.
+
+Install dependencies using your package manager.
+
+Start the development server to run the project locally.
+
+Build the project for production when ready to deploy.
+
+Preview the production build to ensure everything is working as expected.
+
+
 🎨 Design Overview
+
 The product page includes:
 
 A product image gallery with hover effects and responsive sliders.
+
 A product information section with options for size, color, and pricing.
+
 An add-to-cart button with a bold design for visibility.
+
 Related products displayed in a grid layout for cross-selling opportunities.
+
 A sticky navbar for easy navigation.
+
+
 🤝 Contributing
-Contributions are welcome! Fork the repository, create a feature branch, and submit a pull request.
+
+Contributions are welcome. Fork the repository, create a feature branch, and submit a pull request.
+
 
 📜 License
+
 This project is licensed under the MIT License.
